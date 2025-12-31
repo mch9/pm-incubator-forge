@@ -12,6 +12,7 @@ import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExampl
 import { SecondProblemVer2 } from './problem/SecondProblemVer2'
 import { MapExample } from './map/MapExample'
 import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
 function App() {
 
   return (
@@ -38,6 +39,8 @@ function App() {
         <SecondProblemVer2/>
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        
       </div>
     </>
   )
